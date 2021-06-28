@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Merienda:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------------------
+        <!-- Header Start -->
+        font-family: 'Merienda', cursive;
+        font-family: 'Merienda One', cursive;
+-------------------------------------*/
+.top-header{
+    display: flex;
+    margin: 1rem 0;
+    background-color: rgba(48, 40, 40, 0.61);
+}
+
+.top-header-logo{
+    flex: 1;
+    margin: .5rem;
+}
+
+.top-header-logo h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Merienda One', cursive;
+}
+
+
+
+.search{
+    flex:1.5;
+    margin: .5rem;
+    position: relative;
+}
+
+.search input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: .5rem;
+}
+
+.search i{
+    position: absolute;
+    right: .5rem;
+    top: 1rem;
+    cursor: pointer;
+}
+/*------------------------------------
+        <!-- Header End -->
+-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------
+        <!-- Card Row Start -->
+-------------------------------------*/
+.card-row .card{
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.card-row .card iframe{
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgba(48, 40, 40, 0.61);
+}
+
+
+
+
+/*------------------------------------
+        <!-- Card Row End -->
+-------------------------------------*/
+
+
+
+
+

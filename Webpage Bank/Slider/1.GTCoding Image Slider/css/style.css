@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(50, 196, 123);
+}
+
+h1{
+    text-align: center;
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+/*----------------------------------------------------------
+            <!-- GTCoding-image-slider Start -->
+----------------------------------------------------------*/
+
+.GTCoding-image-slider{
+    width: 100%;
+    height: 100%;
+}
+
+
+.GTCoding-image-slider .wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.GTCoding-image-slider .wrapper .slides-container{
+    height: 500px;
+    position: relative;
+    transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+    background-color: red;
+}
+
+.GTCoding-image-slider .wrapper .slides-container .slide-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.GTCoding-image-slider .wrapper .slides-container .slide-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.GTCoding-image-slider .wrapper .prev-btn , .GTCoding-image-slider .wrapper .next-btn{
+    background-color: rgba(238, 238, 238, 0.377);
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    z-index: 100;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+
+.GTCoding-image-slider .wrapper .prev-btn:hover , .GTCoding-image-slider .wrapper .next-btn:hover{
+    background-color: #48f9ff;
+}
+
+
+.GTCoding-image-slider .wrapper .prev-btn{
+    left: 0;
+}
+
+
+.GTCoding-image-slider .wrapper .next-btn{
+    right: 0;
+}
+
+
+/*----------------------------------------------------------
+            <!-- navigation-dots Start -->
+----------------------------------------------------------*/
+.GTCoding-image-slider .wrapper .navigation-dots{
+    display: flex;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.GTCoding-image-slider .wrapper .navigation-dots .single-dot{
+    background-color: rgba(51, 51, 51, 0.397);
+    height: 16px;
+    width: 16px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 400ms;
+    margin: 0 8px;
+}
+
+.GTCoding-image-slider .wrapper .navigation-dots .single-dot.active{
+    background-color: #eee;
+}
+
+/*----------------------------------------------------------
+            <!-- navigation-dots End -->
+----------------------------------------------------------*/
+
+/*----------------------------------------------------------
+            <!-- GTCoding-image-slider Start -->
+----------------------------------------------------------*/
