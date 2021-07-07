@@ -23,7 +23,7 @@ body{
     position: relative;
     width: 280px;
     height: 300px;
-    background: linear-gradient(to right, #f9f9f9, #d9d9d9);
+    background: linear-gradient(to right, #c7ca17, #d9d9d9);
     border-bottom-left-radius: 45%;
     border-bottom-right-radius: 45%;
 }
