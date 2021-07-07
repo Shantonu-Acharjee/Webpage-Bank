@@ -1,0 +1,185 @@
+/*-----------------------------
+      <!-- Nav Start -->
+-----------------------------*/
+
+.displayBlock{
+    display: block;
+}
+
+
+.displayNone{
+    display: none;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+nav{
+    width: 100%;
+    background-color: #00316b;
+    position: relative;
+}
+
+
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+ul .logo{
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-right: 20px;
+    height: 100%;
+    left: 20px;
+    top: 18px;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+ul li:hover{
+    background-color: #e91e63;
+}
+
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #001f44;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+
+
+.toggle .logo{
+    position: absolute;
+    text-decoration: none;
+    text-align: left;
+    left: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+.toggle i{
+    cursor: pointer;
+}
+
+
+
+nav .serch{
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    width: 250px;
+    outline: none;
+    padding-left: 8px;
+    height: 20px;
+}
+
+
+.serchABC{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    width: 250px;
+    outline: none;
+    padding-left: 8px;
+    height: 20px;
+}
+
+
+nav .serch-icon{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
+
+
+@media (max-width:970px){
+    nav .serch{
+        right: 70px;
+        
+    }
+
+    nav .serch-icon{
+        right: 75px;
+    }
+
+    .toggle{
+        display: block;
+    }
+
+    ul{
+        width: 100%;
+        display: none;
+        text-align: left;
+    }
+
+    ul .logo{
+        display: none;
+    }
+
+    ul li{
+        display: block;
+    }
+
+    nav{
+        background-color: #00306b88;
+    }
+
+    .active{
+        display: block;
+    }
+}
+
+
+@media (max-width:585px){
+    
+
+    nav .serch-icon{
+        color: #fff;
+        font-size: 25px;
+        top: 13px;
+    }
+
+    
+}
+
+
+/*-----------------------------
+      <!-- Nav End -->
+---------x----------x---------*/
