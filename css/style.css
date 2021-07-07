@@ -2,92 +2,265 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/*------------------------------------
-        <!-- Header Start -->
-        font-family: 'Merienda', cursive;
-        font-family: 'Merienda One', cursive;
--------------------------------------*/
-.top-header{
-    display: flex;
-    margin: 1rem 0;
-    background-color: rgba(48, 40, 40, 0.61);
-}
-
-.top-header-logo{
-    flex: 1;
-    margin: .5rem;
-}
-
-.top-header-logo h1{
-    text-align: center;
-    color: #fff;
-    font-family: 'Merienda One', cursive;
 }
 
 
+body{
+    font-family: sans-serif;
+    padding: .5rem;
+    background-color: palevioletred;
+}
 
-.search{
-    flex:1.5;
-    margin: .5rem;
+/*-----------------------------
+      <!-- Nav Start -->
+-----------------------------*/
+
+.displayBlock{
+    display: block;
+}
+
+
+.displayNone{
+    display: none;
+}
+
+
+nav{
+    width: 100%;
+    background-color: #00316b;
     position: relative;
 }
 
-.search input{
-    width: 100%;
-    height: 100%;
-    outline: none;
-    padding-left: .5rem;
+
+ul{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
 }
 
-.search i{
+
+ul .logo{
     position: absolute;
-    right: .5rem;
-    top: 1rem;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-right: 20px;
+    height: 100%;
+    left: 20px;
+    top: 18px;
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
     cursor: pointer;
 }
-/*------------------------------------
-        <!-- Header End -->
--------------------------------------*/
+
+
+ul li:hover{
+    background-color: #e91e63;
+}
+
+
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #001f44;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+
+
+.toggle .logo{
+    position: absolute;
+    text-decoration: none;
+    text-align: left;
+    left: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+.toggle i{
+    cursor: pointer;
+}
 
 
 
+nav .serch{
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    width: 250px;
+    outline: none;
+    padding-left: 8px;
+    height: 20px;
+}
 
 
+.serchABC{
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    width: 250px;
+    outline: none;
+    padding-left: 8px;
+    height: 20px;
+}
 
 
+nav .serch-icon{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+}
 
 
+@media (max-width:970px){
+    nav .serch{
+        right: 70px;
+        
+    }
+
+    nav .serch-icon{
+        right: 75px;
+    }
+
+    .toggle{
+        display: block;
+    }
+
+    ul{
+        width: 100%;
+        display: none;
+        text-align: left;
+    }
+
+    ul .logo{
+        display: none;
+    }
+
+    ul li{
+        display: block;
+    }
+
+    nav{
+        background-color: #00306b88;
+    }
+
+    .active{
+        display: block;
+    }
+}
 
 
+@media (max-width:585px){
+    
+
+    nav .serch-icon{
+        color: #fff;
+        font-size: 25px;
+        top: 13px;
+    }
+
+    
+}
 
 
+/*-----------------------------
+     <!-- Main Start-->
+------------------------------*/
 
-/*------------------------------------
-        <!-- Card Row Start -->
--------------------------------------*/
+.card-row{
+    width: 100%;
+    margin: 2rem 0;
+    box-sizing: border-box;
+}
+
 .card-row .card{
     width: 100%;
     height: 100vh;
+    border: 5px solid #00306b;
     padding: 1rem;
-    margin-bottom: 1rem;
+    box-sizing: border-box;
+    overflow: auto;
+    border-radius: 20px;
+    margin: 1rem 0;
+    background-color: gray;
 }
 
+.card-row .card .header{
+    height: 5vh;
+    text-align: center;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #001f4485;
+    border-radius: 20px 20px 0 0;
+}
 
-.card-row .card iframe{
+.card-row .card .dec{
     width: 100%;
-    height: 100%;
-    border: 3px solid rgba(48, 40, 40, 0.61);
+}
+
+.card-row .card .dec iframe{
+    width: 100%;
+    height: 90vh;
+    background-color: red;
+    outline: none;
+    border: none;
+    margin: .5rem 0;
+    border-radius:0 0 20px 20px;
 }
 
 
 
 
-/*------------------------------------
-        <!-- Card Row End -->
--------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------
+      <!-- Main End-->
+---------x----------x---------*/
+
+
+
+
+
+
+
+
+
+
 
 
 
