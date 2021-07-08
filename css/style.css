@@ -205,7 +205,7 @@ nav .serch-icon{
     overflow: hidden;
     border-radius: 20px;
     margin: 1rem 0;
-    background-color: gray;
+    background-color: rgb(220, 10, 228);
 }
 
 .card-row .card .header{
@@ -214,8 +214,9 @@ nav .serch-icon{
     padding: 1rem;
     font-size: 20px;
     font-weight: 600;
-    background-color: #001f4485;
+    background-color: #10b92c85;
     border-radius: 20px 20px 0 0;
+    color: #fff;
 }
 
 .card-row .card .dec{
