@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #9c27b0;
+    background-color: #27b092;
 }
 
 .loader{
@@ -22,8 +22,8 @@ body{
 .loader span{
     position: absolute;
     display: block;
-    border: 5px solid #fff;
-    box-shadow: 0 5px 0 #ccc , inset 0 5px 0 #ccc;
+    border: 5px solid rgb(226, 61, 74);
+    box-shadow: 0 5px 0 rgb(157, 216, 19) , inset 0 5px 0 rgb(236, 106, 19);
     box-sizing: border-box;
     border-radius: 50%;
     animation: animate 3s ease-in-out infinite;
@@ -198,7 +198,7 @@ body{
 
 @media only screen and (max-width: 350px) {
     body {
-      background-color: lightblue;
+      background-color: rgba(57, 109, 89, 0.714);
     }
 
     .loader{
