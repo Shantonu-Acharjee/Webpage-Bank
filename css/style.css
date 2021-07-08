@@ -202,7 +202,7 @@ nav .serch-icon{
     border: 5px solid #00306b;
     padding: 1rem;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: hidden;
     border-radius: 20px;
     margin: 1rem 0;
     background-color: gray;
