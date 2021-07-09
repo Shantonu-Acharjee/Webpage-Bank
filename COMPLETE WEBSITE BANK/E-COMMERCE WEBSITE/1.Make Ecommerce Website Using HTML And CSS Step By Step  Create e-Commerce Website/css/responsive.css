@@ -56,12 +56,12 @@
     
 
 
-    .categories .small-container , .featured-products .small-container{
+    .categories .small-container , .featured-products .small-container, .latest-products .small-container{
         padding: 0;
     }
 
     
-    .categories .row .col-3,.featured-products .row .col-4{
+    .categories .row .col-3,.featured-products .row .col-4, .latest-products .row .col-4{
         flex-basis: 48%;
         min-width: 100px;
         margin-bottom: 5px;
@@ -85,6 +85,20 @@
 
     .offer-img{
         width: 150px;
+    }
+
+
+    .single-product .row{
+        text-align: left;
+    }
+
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+
+    .single-product h1{
+        font-size: 26px;
+        line-height: 32px;
     }
 }
 /*----------------------------------------

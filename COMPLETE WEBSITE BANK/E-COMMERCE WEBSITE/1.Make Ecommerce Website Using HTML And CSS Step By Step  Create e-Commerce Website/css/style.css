@@ -55,6 +55,12 @@ ul{
     justify-content: space-around;
 }
 
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+    padding: 0 15px;
+}
+
 .col-2{
     flex-basis: 50%;
     min-width: 300px;
@@ -452,4 +458,122 @@ nav ul li{
 
 /*----------------------------------------
         <!-- FOOTER END -->------------------------------------------------------
+----------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------
+        <!-- ALL PRODUCT START -->------------------------------------------------------
+----------------------------------------*/
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+    text-align: center;
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+}
+
+/*----------------------------------------
+        <!-- ALL PRODUCT END -->------------------------------------------------------
+----------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------------
+        <!-- SINGLE PRODUCT DETAILS START -->------------------------------------------------------
+----------------------------------------*/
+.single-product{
+    margin-top: 80px;
+}
+
+.single-product .col-2{
+    padding: 20px;
+}
+
+.single-product .col-2 img{
+    padding: 0;
+}
+
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 2px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.single-product i{
+    color: #ff523b;
+    margin-left: 10px;
+}
+
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+}
+/*----------------------------------------
+        <!-- SINGLE PRODUCT DETAILS END -->------------------------------------------------------
 ----------------------------------------*/
