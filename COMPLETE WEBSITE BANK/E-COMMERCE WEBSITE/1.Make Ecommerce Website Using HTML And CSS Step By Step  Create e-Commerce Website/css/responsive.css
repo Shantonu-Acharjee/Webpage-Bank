@@ -15,6 +15,7 @@
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
+        z-index: 1;
     }
 
     nav ul li{

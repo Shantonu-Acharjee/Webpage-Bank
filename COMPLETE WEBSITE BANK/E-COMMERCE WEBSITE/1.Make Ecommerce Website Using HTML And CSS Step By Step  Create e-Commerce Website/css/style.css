@@ -670,6 +670,9 @@ text-height:last-child{
 /*----------------------------------------
         <!-- ACCOUNT START -->------------------------------------------------------
 ----------------------------------------*/
+.account-nevbar{
+    background:#ffd6d6;
+}
 .account-page{
     padding: 50px 0;
     background: radial-gradient(#fff,#ffd6d6);
