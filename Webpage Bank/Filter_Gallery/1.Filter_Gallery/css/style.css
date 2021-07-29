@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter_gallery section{
+    padding: 20px;
+    width: 1280px;
+    margin: 40px auto;
+}
+
+.filter_gallery section ul{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.filter_gallery section ul li{
+    list-style: none;
+    background-color: #eee;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.filter_gallery section ul li.active{
+    background-color: #03a9f4;
+    color: #fff;
+}
+
+.filter_gallery section .product{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter_gallery section .product .itemBox{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.filter_gallery section .product .itemBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
