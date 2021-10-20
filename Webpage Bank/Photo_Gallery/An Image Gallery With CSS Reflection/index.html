@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Image Gallery With CSS Reflection</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/jquery.flipster.min.css">
+</head>
+<body>
+
+    <!--Hero Div Start-->
+    <div class="hero">
+
+        <!--carousel Div Start-->
+        <div class="carousel">
+            <ul>
+                <li><img src="./Photo/1.jpg"></li>
+                <li><img src="./Photo/2.jpg"></li>
+                <li><img src="./Photo/3.jpg"></li>
+                <li><img src="./Photo/4.jpg"></li>
+                <li><img src="./Photo/5.jpeg"></li>
+                <li><img src="./Photo/6.jpg"></li>
+                <li><img src="./Photo/7.jpg"></li>
+                <li><img src="./Photo/8.jpg"></li>
+                <li><img src="./Photo/9.jpg"></li>
+                <li><img src="./Photo/10.jpg"></li>
+            </ul>
+        </div>
+        <!--carousel Div End-->
+
+    </div>
+    <!-- xx Hero Div End xx-->
+    
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./JS/jquery.flipster.min.js"></script>
+    
+    <script>
+        $('.carousel').flipster({
+            style:'carousel',
+            spacing: -0.3,
+        });
+    </script>
+
+</body>
+</html>
